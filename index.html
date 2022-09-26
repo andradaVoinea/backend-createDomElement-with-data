@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script src="js/ajax.js"></script>
+        <title>AJAX DEMO</title>
+        <style>
+            .test{float:left;background: #EEEEEE; width:46%;height:200px; margin:10px 1%; padding: 10px 1%;overflow-y:scroll}
+            .test table{width:100%;}
+            .test table td{border-bottom:1px solid #DDDDDD}
+            .test table th{background: #DDDDDD}
+        </style>
+    </head>
+    <body>
+        <h3>Place for the data</h3>
+        
+        <div id="test2" class="test">
+
+            <table id="table1">
+                <tr>
+                    <th>id</th><th>user id</th><th>title</th>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td> 
+                </tr>
+
+            </table>
+
+        </div>
+
+        <h3>Click to fetch the data</h3>
+
+        <input type="button" id="button" value="Fetch JSON" />
+    </body>
+</html>
